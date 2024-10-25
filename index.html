@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Hangjun Zhang's Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="color:white; font-size: 40px;">Welcome to My Website</h1>
+        <nav>
+            <ul class="A">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Let me introduce myself</h2>
+        <p id='main'>My name is Hangjun Zhang and I am from Chengdu, China. I am currently an undergraduate student at Northeastern University, majoring in Data Science and Economics. In the academic field, I am very interested in business analytics, fintech, and data-driven areas, and have had internships and research experiences. These experiences have fostered my interest in applying data science techniques to solve real-world problems.</p>
+        <p>----------------------------------------------------------------------------------</p>
+        <p id='main'>Outside of school, I am passionate about playing basketball and soccer, which helps me stay active and develop teamwork skills. In addition, I have been playing the saxophone as well as studying music production for several years now, and I find music to be a creative outlet to balance my analytical work. I love exploring the crossover between different disciplines, whether it's through my love of sports or my musical pursuits.</p>
+        <p>----------------------------------------------------------------------------------</p>
+        <p id='main'>As a data analyst with a passion for creative work, I am eager to explore new horizons and interact with different people and cultures. Whether it's through music production, sports, or traveling, I believe life is full of exciting opportunities to grow and learn. If you would like to learn more about me or my work as a data analyst, please feel free to contact me!</p>
+        <p>----------------------------------------------------------------------------------</p>
+        <img src="data.jpeg" alt="A photo representing Hangjun" width="500">
+        <button id='navigationButton'>Learn More About Me</button>
+        <script>
+            const navigationButton = document.getElementById('navigationButton')
+            navigationButton.addEventListener('click', function(){
+            window.location.href = 'about.html';
+        }
+
+        )
+        </script>
+    </section>
+    <footer>
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:zhang.hangj@northeastern.edu">zhang.hangj@northeastern.edu</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/hangjun-zhang/"> My LinkedIn</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+Link: file:///Users/simon_zhang/Desktop/Northeastern/DS4200/HW3/index.html
+
+Describtion:
+
+1. All the headings (h1, h2, h3) are center-aligned.
+2. h1 in the index and about pages is customized with inline for a white color and large sizes.
+3. header section is styled with a gray background and white text
+4. navigation menu is styled to be displayed inline
+5. Buttons are added in both the index and about pages
+6. The footer has a center-aligned layout with contact information
+7. Image
+....
